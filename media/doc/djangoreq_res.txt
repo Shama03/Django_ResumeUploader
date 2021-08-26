@@ -1,0 +1,11 @@
+Whenever a request comes into Django, it is handled by middlewares. When the Django server starts, the first thing it loads after settings.py is middlewares.
+
+The Request is processed by various middlewares one at a time. So, from the above list, when the request comes it will be passed through the security middleware. If it deems it to be unhealthy, then it will not let the request go any further.
+
+Otherwise, the authentication requests are handled by authentication middleware. That comes after 4 middleware classes that didn’t find how to handle that request.
+
+Once, our request is processed by these middlewares it is passed to the URL Router. The URL router simply extracts the URL from the request and will try to match it to defined urls.
+
+Once, we get a matching URL, the corresponding view function is called. The view function will get various attributes and other URL parameters. Also, the view function will be able to access files from the requests. These Requests are considered to be HttpRequest class objects. The requests module is a Python module that provides various methods for Request objects.
+
+Once, the view function has been executed, it’s time to give a response. The response is given in the form of HttpResponse. The response is not limited to that. The Response can be PDF, JSON, CSV. That is one of the features of Django. It provides built-in support to provide responses of various types. When the response is a render, it will look for the HTML. The HTML page to be the server is processed by Django Templating Engine. Once that completes, the Django simply sends the files as any server would. That response will contain the HTML and other static files.

@@ -1,0 +1,88 @@
+Wap to display your biodata in proper format
+use \n \t
+			Biodata
+Name		: Surekha
+Address		: Navi Mumbai
+	 	  400705
+email-id	: surekha@gmail.com
+Contact No.	: 123456789
+D.O.B.		: 01/01/1990
+
+
+WAP to accept month no.(1-12). Display no. of days in that month
+Enter month no.:4
+This month has 30 days.
+
+Write menu driven program for area calculations of different shapes like square,circle,rectangle,triangle
+
+wap to display ASCII table of alphabets(A-Z)
+
+Alphabets	ASCII Code
+A		65
+B		66
+C		67
+
+
+
+Y		89
+Z		90
+
+wap to perform arithmatic calculations
+wap to find area of rectangle
+wap to display student result in proper format.(accept rollno,marks of 3 subjects and display rollno,marks of 3 subjects ,total marks,percentage in proper format).Display result(distinction/first/second/pass/fail).
+If student fails in any individual subject declare him as fail.
+
+WAP to display Employee Salary Slip in proper format
+Accept input from user such as empID,name(string),
+basic salary,experience(in yrs).Perform following calculations:
+hra = 4 % of basicSal
+da = 5 % of basicSal
+ta = 3 % of basicSal
+pf = 6 % of basicSal
+grossSal=hra+da+ta+basicSal
+netSal=grossSal-pf
+As per Industry rules incetives are given according to following table:
+incentive(in %)	 basicSal	exp
+4		 <=10000	<2		
+6		 <=10000	>=2
+8		 >10000		<2
+10		 >10000		>=2
+
+Calculate incentive on basicSal value and add it to netSal.(use nested-if structure)
+Display all values in proper format.
+
+WAP to create an array of 10 numbers.
+ Find:
+	1.Count of Even No.s
+	2.Count of Odd No.s
+	3.Sum of Even No.s
+	4.Sum of Odd No.s
+
+WAP to display accept no. and generate its multiplication table.
+	Enter No. : 7
+
+	7 * 1 = 7
+	7 * 2 = 14
+ 	7 * 3 = 21
+
+
+
+	7 * 10 = 70
+
+Write menu-driven program for arithmatic calculations. Use loop so that user will be able to perform calculations multiple times.
+
+WAP to display following o/p
+	Odd No.	Even No.
+	1	2
+	3	4
+	5	6
+
+
+	99	100
+
+WAP to display following o/p
+	1
+	23
+	456
+	78910
+	
